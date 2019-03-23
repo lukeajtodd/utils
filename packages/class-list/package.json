@@ -1,5 +1,5 @@
 {
-  "name": "@utils/class-list",
+  "name": "@lt-utils/class-list",
   "version": "1.0.0",
   "description": "Class list helpers",
   "main": "./lib/index.js",
@@ -18,7 +18,14 @@
     "Prettier",
     "Jest"
   ],
-  "author": "Luke Todd",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lukeajtodd/utils.git"
+  },
+  "bugs": {
+    "url": "https://github.com/lukeajtodd/utils/issues"
+  },
+  "author": "Luke Todd <luketodd@zoho.com>",
   "license": "MIT",
   "dependencies": {
     "@lt-utils/contains": "^1.0.0"
