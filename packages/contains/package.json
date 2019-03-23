@@ -1,5 +1,5 @@
 {
-  "name": "contains",
+  "name": "@lt-utils/contains",
   "version": "1.0.5",
   "description": "Checks if string contains character",
   "main": "lib/index.js",
@@ -41,5 +41,5 @@
     "tslint-config-prettier": "^1.18.0",
     "typescript": "^3.3.4000"
   },
-  "gitHead": "27a19f8d29e88b8c8da8e76014d895cd2aa50713"
+  "gitHead": "ba73de984e673863b195fe9f6c87c493e4b3e76e"
 }
