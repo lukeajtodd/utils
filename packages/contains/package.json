@@ -1,6 +1,6 @@
 {
   "name": "contains",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Checks if string contains character",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
