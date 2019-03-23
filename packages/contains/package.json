@@ -1,6 +1,6 @@
 {
   "name": "@lt-utils/contains",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Checks if string contains character",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
