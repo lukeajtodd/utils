@@ -1,4 +1,4 @@
-import { contains } from '@utils/contains';
+import { contains } from '@lt-utils/contains';
 
 /**
  * Method that checks whether cls is present in element object. (Will set class attribute to empty if not present).
@@ -23,9 +23,9 @@ export const hasClass = (ele: HTMLElement, cls: string) => {
 export const addClass = (ele: HTMLElement, cls: string) => {
   if (ele.classList) {
     if (contains(cls, ' ')) {
-      let clsArr = cls.split(' ');
-      for (let i = 0; i < clsArr.length; i++) {
-        ele.classList.add(clsArr[i]);
+      const clsArr = cls.split(' ');
+      for (let cls of clsArr) {
+        ele.classList.add(cls);
       }
     } else {
       ele.classList.add(cls);
