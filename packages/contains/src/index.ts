@@ -6,5 +6,5 @@
  * @param {String} charValue
  */
 export function contains(stringValue: string, charValue: string) {
-    return stringValue.indexOf(charValue) > -1;
+  return stringValue.indexOf(charValue) > -1;
 }
