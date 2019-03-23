@@ -4,4 +4,5 @@ module.exports = {
   ...base,
   name: '@lt-utils/class-list',
   displayName: '@lt-utils/class-list',
+  collectCoverageFrom: ['**/*.{ts}', '!**/node_modules/**'],
 };
