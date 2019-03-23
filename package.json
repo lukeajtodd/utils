@@ -3,10 +3,10 @@
   "private": true,
   "scripts": {
     "test": "jest --config jestconfig.json",
-    "prepare": "lerna run build",
-    "prepublishOnly": "npm test && lerna run lint",
-    "preversion": "lerna run lint",
-    "version": "lerna run format && git add -A src",
+    "prepare": "npx lerna run build",
+    "prepublishOnly": "npm test && npx lerna run lint",
+    "preversion": "npx lerna run lint",
+    "version": "npx lerna run format && git add .",
     "postversion": "git push && git push --tags"
   },
   "devDependencies": {
