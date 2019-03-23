@@ -2,8 +2,8 @@
   "name": "@lt-utils/contains",
   "version": "1.0.6",
   "description": "Checks if string contains character",
-  "main": "lib/index.js",
-  "types": "lib/index.d.ts",
+  "types": "./lib/index.d.ts",
+  "main": "./lib/index.js",
   "files": [
     "lib/**/*"
   ],
@@ -41,5 +41,5 @@
     "tslint-config-prettier": "^1.18.0",
     "typescript": "^3.3.4000"
   },
-  "gitHead": "ba73de984e673863b195fe9f6c87c493e4b3e76e"
+  "gitHead": "21aee4553d5b8c05a9b0bc1b10b23c13525763a4"
 }

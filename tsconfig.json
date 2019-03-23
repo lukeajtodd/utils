@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
-    "target": "es5",
-    "module": "commonjs",
+    "target": "es6",
+    "module": "es6",
     "declaration": true,
     "strict": true,
     "sourceMap": true,
@@ -10,7 +10,7 @@
     "noLib": false,
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
-    "lib": ["es6"]
+    "moduleResolution": "node"
   },
   "exclude": ["node_modules", "**/__tests__/*", "**/__mocks__/*"]
 }
