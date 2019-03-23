@@ -24,8 +24,8 @@ export const addClass = (ele: HTMLElement, cls: string) => {
   if (ele.classList) {
     if (contains(cls, ' ')) {
       const clsArr = cls.split(' ');
-      for (let cls of clsArr) {
-        ele.classList.add(cls);
+      for (const clsItem of clsArr) {
+        ele.classList.add(clsItem);
       }
     } else {
       ele.classList.add(cls);
