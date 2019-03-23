@@ -1,6 +1,6 @@
 {
   "name": "@lt-utils/class-list",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Class list helpers",
   "main": "./lib/index.js",
   "types": "./lib/index.d.ts",
@@ -28,7 +28,7 @@
   "author": "Luke Todd <luketodd@zoho.com>",
   "license": "MIT",
   "dependencies": {
-    "@lt-utils/contains": "^1.0.8"
+    "@lt-utils/contains": "^1.0.9"
   },
   "devDependencies": {
     "@types/jest": "^24.0.11",
