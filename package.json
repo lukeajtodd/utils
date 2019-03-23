@@ -2,7 +2,7 @@
   "name": "root",
   "private": false,
   "scripts": {
-    "test": "jest --config jestconfig.json",
+    "test": "jest",
     "prepare": "npx lerna run build",
     "prepublishOnly": "npm test && npx lerna run lint",
     "preversion": "npx lerna run lint",
