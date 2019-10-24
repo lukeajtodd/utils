@@ -8,3 +8,4 @@ Some common utility functions and helpers. I am currently pulling them from repo
 
 - `contains` - Checks if a character is within a string.
 - `class-list` - Helpers classList operations.
+- `prop-injector` - Wrapper to assign contextual props to child.

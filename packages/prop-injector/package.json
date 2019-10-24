@@ -1,6 +1,6 @@
 {
     "name": "@lt-utils/prop-injector",
-    "version": "1.0.12",
+    "version": "1.0.0",
     "description": "Vue.js - Inject initial set up props over using created",
     "main": "./index.js",
     "files": [
