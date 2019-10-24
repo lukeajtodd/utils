@@ -1,0 +1,27 @@
+{
+    "name": "@lt-utils/prop-injector",
+    "version": "1.0.12",
+    "description": "Vue.js - Inject initial set up props over using created",
+    "main": "./index.js",
+    "files": [
+      "index.js"
+    ],
+    "keywords": [
+      "Vue",
+      "Vue.js"
+    ],
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/lukeajtodd/utils.git"
+    },
+    "bugs": {
+      "url": "https://github.com/lukeajtodd/utils/issues"
+    },
+    "author": "Luke Todd <luketodd@zoho.com>",
+    "license": "MIT",
+    "gitHead": "21aee4553d5b8c05a9b0bc1b10b23c13525763a4",
+    "publishConfig": {
+      "access": "public"
+    }
+  }
+  
